@@ -2,6 +2,7 @@
 import './App.css';
 
 import { BrowserRouter , Routes, Route} from 'react-router-dom'
+import Weeknd from './hello';
 import SignUp from './signup';
 import MylogIn from './signin';
 import Welcome from './welcome';
@@ -16,10 +17,11 @@ function App() {
     </header>
     <BrowserRouter>
       <Routes>   
-      <Route path='/' element={<MylogIn/>}/>
+     <Route path='/' element={<MylogIn/>}/>
       <Route path='up' element={<SignUp/>} /> 
       <Route path='welcome' element={<Welcome/>}/> 
       <Route path='helo' element={<Mainpage/>}/>     
+      <Route path='song' element={<Weeknd/>}/>
       </Routes>
     </BrowserRouter>
   </div>

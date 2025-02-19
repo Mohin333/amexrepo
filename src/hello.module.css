@@ -1,0 +1,41 @@
+.songs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #828282;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.music {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hills{
+    color: red;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hills1{
+    color: rgb(0, 186, 161);
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
